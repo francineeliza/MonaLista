@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2F9A4112A075C4000142C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4102A075C4000142C86 /* AppDelegate.swift */; };
+		3752894135B42DD26BAB71B0 /* Pods_MonaLista.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEAE05B98897EACA903D21E /* Pods_MonaLista.framework */; };
+		A09ECD9D5EB137B28EC9CB98 /* Pods_MonaListaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976D19F5E2F9456728201BC8 /* Pods_MonaListaTests.framework */; };
+		B31B3D9FC5DA3108EB396AA0 /* Pods_MonaLista_MonaListaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3978AA380201A24075B70D3C /* Pods_MonaLista_MonaListaUITests.framework */; };
+		F24E877A2A0773EB00EC4DAC /* MonaLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E87792A0773EB00EC4DAC /* MonaLista.swift */; };
 		F2F9A4132A075C4000142C86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4122A075C4000142C86 /* SceneDelegate.swift */; };
 		F2F9A4152A075C4000142C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4142A075C4000142C86 /* ViewController.swift */; };
-		F2F9A4182A075C4000142C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F9A4162A075C4000142C86 /* Main.storyboard */; };
 		F2F9A41A2A075C4100142C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F9A4192A075C4100142C86 /* Assets.xcassets */; };
 		F2F9A41D2A075C4100142C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F9A41B2A075C4100142C86 /* LaunchScreen.storyboard */; };
 		F2F9A4282A075C4100142C86 /* MonaListaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4272A075C4100142C86 /* MonaListaTests.swift */; };
@@ -36,11 +38,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BDDD4C7DE0564E578690299 /* Pods-MonaListaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonaListaTests.release.xcconfig"; path = "Target Support Files/Pods-MonaListaTests/Pods-MonaListaTests.release.xcconfig"; sourceTree = "<group>"; };
+		3978AA380201A24075B70D3C /* Pods_MonaLista_MonaListaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonaLista_MonaListaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8CCA9DCA11064E32A89796 /* Pods-MonaLista-MonaListaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonaLista-MonaListaUITests.debug.xcconfig"; path = "Target Support Files/Pods-MonaLista-MonaListaUITests/Pods-MonaLista-MonaListaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DEAE05B98897EACA903D21E /* Pods_MonaLista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonaLista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6EBD889642F7B77C8EBE3B /* Pods-MonaListaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonaListaTests.debug.xcconfig"; path = "Target Support Files/Pods-MonaListaTests/Pods-MonaListaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9702E09F4A4293967028771A /* Pods-MonaLista-MonaListaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonaLista-MonaListaUITests.release.xcconfig"; path = "Target Support Files/Pods-MonaLista-MonaListaUITests/Pods-MonaLista-MonaListaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		976D19F5E2F9456728201BC8 /* Pods_MonaListaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonaListaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E387184598C7F1D5203F708 /* Pods-MonaLista.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonaLista.debug.xcconfig"; path = "Target Support Files/Pods-MonaLista/Pods-MonaLista.debug.xcconfig"; sourceTree = "<group>"; };
+		9F16D1A6C8BD82F67A7B891B /* Pods-MonaLista.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonaLista.release.xcconfig"; path = "Target Support Files/Pods-MonaLista/Pods-MonaLista.release.xcconfig"; sourceTree = "<group>"; };
+		F24E87792A0773EB00EC4DAC /* MonaLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonaLista.swift; sourceTree = "<group>"; };
 		F2F9A40D2A075C4000142C86 /* MonaLista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonaLista.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2F9A4102A075C4000142C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2F9A4122A075C4000142C86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F2F9A4142A075C4000142C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2F9A4172A075C4000142C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2F9A4192A075C4100142C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2F9A41C2A075C4100142C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2F9A41E2A075C4100142C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3752894135B42DD26BAB71B0 /* Pods_MonaLista.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A09ECD9D5EB137B28EC9CB98 /* Pods_MonaListaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31B3D9FC5DA3108EB396AA0 /* Pods_MonaLista_MonaListaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78B668DDD450856814FE9B53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E387184598C7F1D5203F708 /* Pods-MonaLista.debug.xcconfig */,
+				9F16D1A6C8BD82F67A7B891B /* Pods-MonaLista.release.xcconfig */,
+				7F8CCA9DCA11064E32A89796 /* Pods-MonaLista-MonaListaUITests.debug.xcconfig */,
+				9702E09F4A4293967028771A /* Pods-MonaLista-MonaListaUITests.release.xcconfig */,
+				8F6EBD889642F7B77C8EBE3B /* Pods-MonaListaTests.debug.xcconfig */,
+				0BDDD4C7DE0564E578690299 /* Pods-MonaListaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B35C78F9A5396ACCC0BCF74C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DEAE05B98897EACA903D21E /* Pods_MonaLista.framework */,
+				3978AA380201A24075B70D3C /* Pods_MonaLista_MonaListaUITests.framework */,
+				976D19F5E2F9456728201BC8 /* Pods_MonaListaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2F9A4042A075C4000142C86 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,8 @@
 				F2F9A4262A075C4100142C86 /* MonaListaTests */,
 				F2F9A4302A075C4100142C86 /* MonaListaUITests */,
 				F2F9A40E2A075C4000142C86 /* Products */,
+				78B668DDD450856814FE9B53 /* Pods */,
+				B35C78F9A5396ACCC0BCF74C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +137,9 @@
 		F2F9A40F2A075C4000142C86 /* MonaLista */ = {
 			isa = PBXGroup;
 			children = (
-				F2F9A4102A075C4000142C86 /* AppDelegate.swift */,
 				F2F9A4122A075C4000142C86 /* SceneDelegate.swift */,
+				F24E87792A0773EB00EC4DAC /* MonaLista.swift */,
 				F2F9A4142A075C4000142C86 /* ViewController.swift */,
-				F2F9A4162A075C4000142C86 /* Main.storyboard */,
 				F2F9A4192A075C4100142C86 /* Assets.xcassets */,
 				F2F9A41B2A075C4100142C86 /* LaunchScreen.storyboard */,
 				F2F9A41E2A075C4100142C86 /* Info.plist */,
@@ -134,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2F9A4372A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaLista" */;
 			buildPhases = (
+				E89EB2A6C23F5F22FACB9710 /* [CP] Check Pods Manifest.lock */,
 				F2F9A4092A075C4000142C86 /* Sources */,
 				F2F9A40A2A075C4000142C86 /* Frameworks */,
 				F2F9A40B2A075C4000142C86 /* Resources */,
@@ -151,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2F9A43A2A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaListaTests" */;
 			buildPhases = (
+				FD8C76BA5582AB8606865FDD /* [CP] Check Pods Manifest.lock */,
 				F2F9A41F2A075C4100142C86 /* Sources */,
 				F2F9A4202A075C4100142C86 /* Frameworks */,
 				F2F9A4212A075C4100142C86 /* Resources */,
@@ -169,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2F9A43D2A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaListaUITests" */;
 			buildPhases = (
+				E3167FBC86365AF601E066B2 /* [CP] Check Pods Manifest.lock */,
 				F2F9A4292A075C4100142C86 /* Sources */,
 				F2F9A42A2A075C4100142C86 /* Frameworks */,
 				F2F9A42B2A075C4100142C86 /* Resources */,
@@ -233,7 +273,6 @@
 			files = (
 				F2F9A41D2A075C4100142C86 /* LaunchScreen.storyboard in Resources */,
 				F2F9A41A2A075C4100142C86 /* Assets.xcassets in Resources */,
-				F2F9A4182A075C4000142C86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +292,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E3167FBC86365AF601E066B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonaLista-MonaListaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89EB2A6C23F5F22FACB9710 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonaLista-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD8C76BA5582AB8606865FDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonaListaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2F9A4092A075C4000142C86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F2F9A4152A075C4000142C86 /* ViewController.swift in Sources */,
-				F2F9A4112A075C4000142C86 /* AppDelegate.swift in Sources */,
 				F2F9A4132A075C4000142C86 /* SceneDelegate.swift in Sources */,
+				F24E877A2A0773EB00EC4DAC /* MonaLista.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2F9A4162A075C4000142C86 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2F9A4172A075C4000142C86 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2F9A41B2A075C4100142C86 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +532,7 @@
 		};
 		F2F9A4382A075C4100142C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E387184598C7F1D5203F708 /* Pods-MonaLista.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,8 +543,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = MonaLista;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -462,6 +562,7 @@
 		};
 		F2F9A4392A075C4100142C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F16D1A6C8BD82F67A7B891B /* Pods-MonaLista.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,8 +573,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = MonaLista;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -492,6 +592,7 @@
 		};
 		F2F9A43B2A075C4100142C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6EBD889642F7B77C8EBE3B /* Pods-MonaListaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +612,7 @@
 		};
 		F2F9A43C2A075C4100142C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BDDD4C7DE0564E578690299 /* Pods-MonaListaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +632,7 @@
 		};
 		F2F9A43E2A075C4100142C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8CCA9DCA11064E32A89796 /* Pods-MonaLista-MonaListaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +650,7 @@
 		};
 		F2F9A43F2A075C4100142C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9702E09F4A4293967028771A /* Pods-MonaLista-MonaListaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
