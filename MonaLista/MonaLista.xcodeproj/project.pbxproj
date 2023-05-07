@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2F9A4112A075C4000142C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4102A075C4000142C86 /* AppDelegate.swift */; };
+		F2F9A4132A075C4000142C86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4122A075C4000142C86 /* SceneDelegate.swift */; };
+		F2F9A4152A075C4000142C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4142A075C4000142C86 /* ViewController.swift */; };
+		F2F9A4182A075C4000142C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F9A4162A075C4000142C86 /* Main.storyboard */; };
+		F2F9A41A2A075C4100142C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F9A4192A075C4100142C86 /* Assets.xcassets */; };
+		F2F9A41D2A075C4100142C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F9A41B2A075C4100142C86 /* LaunchScreen.storyboard */; };
+		F2F9A4282A075C4100142C86 /* MonaListaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4272A075C4100142C86 /* MonaListaTests.swift */; };
+		F2F9A4322A075C4100142C86 /* MonaListaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4312A075C4100142C86 /* MonaListaUITests.swift */; };
+		F2F9A4342A075C4100142C86 /* MonaListaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9A4332A075C4100142C86 /* MonaListaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2F9A4242A075C4100142C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2F9A4052A075C4000142C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2F9A40C2A075C4000142C86;
+			remoteInfo = MonaLista;
+		};
+		F2F9A42E2A075C4100142C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2F9A4052A075C4000142C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2F9A40C2A075C4000142C86;
+			remoteInfo = MonaLista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2F9A40D2A075C4000142C86 /* MonaLista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonaLista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F9A4102A075C4000142C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2F9A4122A075C4000142C86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2F9A4142A075C4000142C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2F9A4172A075C4000142C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2F9A4192A075C4100142C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2F9A41C2A075C4100142C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2F9A41E2A075C4100142C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F9A4232A075C4100142C86 /* MonaListaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonaListaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F9A4272A075C4100142C86 /* MonaListaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonaListaTests.swift; sourceTree = "<group>"; };
+		F2F9A42D2A075C4100142C86 /* MonaListaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonaListaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F9A4312A075C4100142C86 /* MonaListaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonaListaUITests.swift; sourceTree = "<group>"; };
+		F2F9A4332A075C4100142C86 /* MonaListaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonaListaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2F9A40A2A075C4000142C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F9A4202A075C4100142C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F9A42A2A075C4100142C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2F9A4042A075C4000142C86 = {
+			isa = PBXGroup;
+			children = (
+				F2F9A40F2A075C4000142C86 /* MonaLista */,
+				F2F9A4262A075C4100142C86 /* MonaListaTests */,
+				F2F9A4302A075C4100142C86 /* MonaListaUITests */,
+				F2F9A40E2A075C4000142C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F9A40E2A075C4000142C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2F9A40D2A075C4000142C86 /* MonaLista.app */,
+				F2F9A4232A075C4100142C86 /* MonaListaTests.xctest */,
+				F2F9A42D2A075C4100142C86 /* MonaListaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F9A40F2A075C4000142C86 /* MonaLista */ = {
+			isa = PBXGroup;
+			children = (
+				F2F9A4102A075C4000142C86 /* AppDelegate.swift */,
+				F2F9A4122A075C4000142C86 /* SceneDelegate.swift */,
+				F2F9A4142A075C4000142C86 /* ViewController.swift */,
+				F2F9A4162A075C4000142C86 /* Main.storyboard */,
+				F2F9A4192A075C4100142C86 /* Assets.xcassets */,
+				F2F9A41B2A075C4100142C86 /* LaunchScreen.storyboard */,
+				F2F9A41E2A075C4100142C86 /* Info.plist */,
+			);
+			path = MonaLista;
+			sourceTree = "<group>";
+		};
+		F2F9A4262A075C4100142C86 /* MonaListaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2F9A4272A075C4100142C86 /* MonaListaTests.swift */,
+			);
+			path = MonaListaTests;
+			sourceTree = "<group>";
+		};
+		F2F9A4302A075C4100142C86 /* MonaListaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2F9A4312A075C4100142C86 /* MonaListaUITests.swift */,
+				F2F9A4332A075C4100142C86 /* MonaListaUITestsLaunchTests.swift */,
+			);
+			path = MonaListaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2F9A40C2A075C4000142C86 /* MonaLista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F9A4372A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaLista" */;
+			buildPhases = (
+				F2F9A4092A075C4000142C86 /* Sources */,
+				F2F9A40A2A075C4000142C86 /* Frameworks */,
+				F2F9A40B2A075C4000142C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonaLista;
+			productName = MonaLista;
+			productReference = F2F9A40D2A075C4000142C86 /* MonaLista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2F9A4222A075C4100142C86 /* MonaListaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F9A43A2A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaListaTests" */;
+			buildPhases = (
+				F2F9A41F2A075C4100142C86 /* Sources */,
+				F2F9A4202A075C4100142C86 /* Frameworks */,
+				F2F9A4212A075C4100142C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2F9A4252A075C4100142C86 /* PBXTargetDependency */,
+			);
+			name = MonaListaTests;
+			productName = MonaListaTests;
+			productReference = F2F9A4232A075C4100142C86 /* MonaListaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2F9A42C2A075C4100142C86 /* MonaListaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F9A43D2A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaListaUITests" */;
+			buildPhases = (
+				F2F9A4292A075C4100142C86 /* Sources */,
+				F2F9A42A2A075C4100142C86 /* Frameworks */,
+				F2F9A42B2A075C4100142C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2F9A42F2A075C4100142C86 /* PBXTargetDependency */,
+			);
+			name = MonaListaUITests;
+			productName = MonaListaUITests;
+			productReference = F2F9A42D2A075C4100142C86 /* MonaListaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2F9A4052A075C4000142C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F2F9A40C2A075C4000142C86 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F2F9A4222A075C4100142C86 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F2F9A40C2A075C4000142C86;
+					};
+					F2F9A42C2A075C4100142C86 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F2F9A40C2A075C4000142C86;
+					};
+				};
+			};
+			buildConfigurationList = F2F9A4082A075C4000142C86 /* Build configuration list for PBXProject "MonaLista" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2F9A4042A075C4000142C86;
+			productRefGroup = F2F9A40E2A075C4000142C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2F9A40C2A075C4000142C86 /* MonaLista */,
+				F2F9A4222A075C4100142C86 /* MonaListaTests */,
+				F2F9A42C2A075C4100142C86 /* MonaListaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2F9A40B2A075C4000142C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F9A41D2A075C4100142C86 /* LaunchScreen.storyboard in Resources */,
+				F2F9A41A2A075C4100142C86 /* Assets.xcassets in Resources */,
+				F2F9A4182A075C4000142C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F9A4212A075C4100142C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F9A42B2A075C4100142C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2F9A4092A075C4000142C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F9A4152A075C4000142C86 /* ViewController.swift in Sources */,
+				F2F9A4112A075C4000142C86 /* AppDelegate.swift in Sources */,
+				F2F9A4132A075C4000142C86 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F9A41F2A075C4100142C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F9A4282A075C4100142C86 /* MonaListaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F9A4292A075C4100142C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F9A4322A075C4100142C86 /* MonaListaUITests.swift in Sources */,
+				F2F9A4342A075C4100142C86 /* MonaListaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2F9A4252A075C4100142C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2F9A40C2A075C4000142C86 /* MonaLista */;
+			targetProxy = F2F9A4242A075C4100142C86 /* PBXContainerItemProxy */;
+		};
+		F2F9A42F2A075C4100142C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2F9A40C2A075C4000142C86 /* MonaLista */;
+			targetProxy = F2F9A42E2A075C4100142C86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2F9A4162A075C4000142C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2F9A4172A075C4000142C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2F9A41B2A075C4100142C86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2F9A41C2A075C4100142C86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2F9A4352A075C4100142C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2F9A4362A075C4100142C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2F9A4382A075C4100142C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonaLista/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MonaLista;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.francinecavalcante.MonaLista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2F9A4392A075C4100142C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonaLista/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MonaLista;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.francinecavalcante.MonaLista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2F9A43B2A075C4100142C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.francinecavalcante.MonaListaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonaLista.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonaLista";
+			};
+			name = Debug;
+		};
+		F2F9A43C2A075C4100142C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.francinecavalcante.MonaListaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonaLista.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonaLista";
+			};
+			name = Release;
+		};
+		F2F9A43E2A075C4100142C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.francinecavalcante.MonaListaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonaLista;
+			};
+			name = Debug;
+		};
+		F2F9A43F2A075C4100142C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.francinecavalcante.MonaListaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonaLista;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2F9A4082A075C4000142C86 /* Build configuration list for PBXProject "MonaLista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F9A4352A075C4100142C86 /* Debug */,
+				F2F9A4362A075C4100142C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F9A4372A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaLista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F9A4382A075C4100142C86 /* Debug */,
+				F2F9A4392A075C4100142C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F9A43A2A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaListaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F9A43B2A075C4100142C86 /* Debug */,
+				F2F9A43C2A075C4100142C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F9A43D2A075C4100142C86 /* Build configuration list for PBXNativeTarget "MonaListaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F9A43E2A075C4100142C86 /* Debug */,
+				F2F9A43F2A075C4100142C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2F9A4052A075C4000142C86 /* Project object */;
+}
